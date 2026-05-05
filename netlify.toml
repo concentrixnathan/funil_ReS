@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*.xlsx"
+  [headers.values]
+    Content-Type = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    Access-Control-Allow-Origin = "*"
