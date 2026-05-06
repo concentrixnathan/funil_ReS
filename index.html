@@ -300,9 +300,9 @@ function render() {
   document.getElementById('conv-footer').innerHTML=`
     <div>
       <div class="conv-footer-label">Conversão de admissão</div>
-      <div class="conv-footer-sub">Admitidos ÷ Aprovados</div>
+      <div class="conv-footer-sub">Admitidos ÷ Abordados</div>
     </div>
-    <div class="conv-footer-val">${pct(d[6], d[3])}</div>
+    <div class="conv-footer-val">${pct(d[6], d[0])}</div>
   `;
 }
 
