@@ -299,10 +299,10 @@ function render() {
 
   document.getElementById('conv-footer').innerHTML=`
     <div>
-      <div class="conv-footer-label">Conversão de aprovações</div>
-      <div class="conv-footer-sub">Aprovados ÷ Abordados</div>
+      <div class="conv-footer-label">Conversão de admissão</div>
+      <div class="conv-footer-sub">Admitidos ÷ Aprovados</div>
     </div>
-    <div class="conv-footer-val">${pct(d[IDX_BASE],d[0])}</div>
+    <div class="conv-footer-val">${pct(d[6], d[3])}</div>
   `;
 }
 
